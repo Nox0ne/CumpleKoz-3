@@ -1,0 +1,72 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('sky_background.jpg'); /* Imagen de fondo inspirada en Sky */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Texto blanco para contraste */
+    overflow-x: hidden;
+}
+
+.centered-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.introduction {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.main-video {
+    max-width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.message {
+    text-align: center;
+    margin: 50px 0;
+    line-height: 1.6;
+}
+
+.moments {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.gallery-section {
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-section:hover {
+    transform: scale(1.05);
+}
+
+.gallery img,
+.gallery video {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 10px;
+}
